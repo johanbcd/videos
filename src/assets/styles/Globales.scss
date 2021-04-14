@@ -1,0 +1,32 @@
+//@import url(https://fonts.googleapis.com/css?family=Muli&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap);
+
+$Fuente: 'Ubuntu', 'sans-serif';
+$main-color: linear-gradient(#2173c0, #4381bb, #191042);
+
+.input_general{
+  background-color: rgba(255,255,255,0.1);
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  font-family: $Fuente;
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, .3);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: $Fuente;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}

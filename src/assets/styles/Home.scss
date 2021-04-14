@@ -1,0 +1,22 @@
+@import "./Globales.scss";
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: $Fuente;
+    background: $main-color;
+}
+h1,h2{
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    .main__description--title {
+    font-size: 30px;
+    }
+
+    .footer {
+    align-items: flex-start;
+    flex-direction: column;
+    }
+}
